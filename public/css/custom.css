@@ -1,0 +1,151 @@
+/* general styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+/* posts styling */
+.post {
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+.post-section {
+  background: #fff;
+  padding: 5px 10px;
+}
+
+.post-info {
+  border-bottom: 1px solid #ddd;
+}
+
+.action-buttons {
+  padding-top: 5px;
+}
+
+.action-buttons > div {
+  padding-right: 10px;
+}
+
+/* comments styling */
+.comment-section {
+  background: #f2f2f2;
+  padding: 10px;
+}
+
+.commenter {
+  margin-right: 10px;
+}
+
+.comment-form {
+  width: calc((100% - 40px) - 10px);
+}
+
+.comment-form .form-group {
+  margin-bottom: 0;
+}
+
+.comment-form input {
+  margin: 2px 0;
+  border-radius: 18px;
+}
+
+.comment-form button {
+  display: none;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment p {
+  margin: 0;
+  background: #fff;
+  border-radius: 16px;
+  padding: 5px 10px;
+  margin: 4px 0;
+}
+
+/* replies styling */
+.new-reply-section {
+  width: calc(100% - 55px);
+  margin-left: 55px;
+}
+
+.reply-form {
+  width: calc((100% - 55px) - 10px);
+}
+
+.reply-form .form-group {
+  margin: 2px 0;
+}
+
+.reply-form input {
+  border-radius: 18px;
+}
+
+.reply-list {
+  clear: left;
+  margin-left: 55px;
+}
+
+.reply {
+  margin: 5px 0;
+}
+
+/* profile styling */
+.cover-photo {
+  height: 315px;
+  background: #333;
+  position: relative;
+  z-index: -9999;
+}
+
+.cover-photo h3 {
+  position: absolute;
+  bottom: 0;
+  left: 198px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.user-profile-avatar {
+  margin-top: -140px;
+  margin-left: 15px;
+  float: left;
+}
+
+.user-profile-avatar img {
+  margin-right: 15px;
+}
+
+/* user profile navbar styling */
+.user-profile-navbar {
+  background: #fff;
+  height: 43px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.user-profile-navbar li {
+    float: left;
+    padding: 0 20px;
+    line-height: 43px;
+    border-right: 1px solid #ddd;
+}
+
+.user-profile-navbar li:first-child {
+  border-left: 1px solid #ddd;
+}
+
+/* gallery styling */
+.photo {
+  padding: 5px;
+}
+
+.gallery h3 {
+  margin: 10px;
+}
